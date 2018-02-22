@@ -1,5 +1,5 @@
-# PDA18
-# Proteomics Data Analysis
+# Oneida Workshop+
 
-Tentative date 28 May 2018
+
+Tentative dates  May  2,3,4 2018
 
