@@ -1,5 +1,4 @@
-# Oneida Workshop+
+# Oneida - Training Course
 
-
-Tentative dates  May  2,3,4 2018
+May  2nd 3rd and 4th 2018
 
