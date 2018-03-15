@@ -4,20 +4,20 @@ From reads to results
  
 ## Course Dates: 2-4 May 2018
  
-Course Organizers: 
- Mário Ramirez            IMM/FMUL
- João André Carriço        IMM/FMUL
- Pedro Fernandes         IGC
- Daniel Sobral            IGC
+## Course Organizers: 
+<br>Mário Ramirez            IMM/FMUL
+<br>João André Carriço        IMM/FMUL
+<br>Pedro Fernandes         IGC
+<br>Daniel Sobral            IGC
 
-Course Instructors:
-Belén Carbonetto        IGC
-João André Carriço        IMM/FMUL
-Miguel Machado        IMM/FMUL
-Bruno Ribeiro Gonçalves    IMM/FMUL
-Mário Ramirez            IMM/FMUL
-Mickael Silva            IMM/FMUL
-Daniel Sobral            IGC
+## Course Instructors:
+<br>Belén Carbonetto        IGC
+<br>João André Carriço        IMM/FMUL
+<br>Miguel Machado        IMM/FMUL
+<br>Bruno Ribeiro Gonçalves    IMM/FMUL
+<br>Mário Ramirez            IMM/FMUL
+<br>Mickael Silva            IMM/FMUL
+<br>Daniel Sobral            IGC
  
 # Target audience:
 Researchers with interest in high throughput sequence data analysis in the context of microbial pathogens and willing to analyse their own data
