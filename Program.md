@@ -1,7 +1,8 @@
-## Oneida Genomics Training Course – From reads to results
+# ONEIDA - Genomics Training Course 
+From reads to results
 
  
-# Course Dates: 2-4 May 2018
+## Course Dates: 2-4 May 2018
  
 Course Organizers
 Mário Ramirez            IMM/FMUL
