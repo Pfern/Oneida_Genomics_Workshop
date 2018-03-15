@@ -59,7 +59,9 @@ Morning  (9:30 – 12:30)
 ·      Schema creation
 ·      Allele calling
 ·      Schema evaluation
+
 Lunch (12h30 – 13h30)
+
 Afternoon (14h00 – 17h00)
 
 2.     Visualizing strain relatedness results using PHYLOViZ
