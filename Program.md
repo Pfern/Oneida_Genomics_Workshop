@@ -4,13 +4,13 @@ From reads to results
  
 ## Dates: 2-4 May 2018
  
-_Organisers:_ 
+**Organisers:**
 <br>Mário Ramirez            IMM/FMUL
 <br>João André Carriço        IMM/FMUL
 <br>Pedro Fernandes         IGC
 <br>Daniel Sobral            IGC
 
-_Instructors:_
+**Instructors:**
 <br>Belén Carbonetto        IGC
 <br>João André Carriço        IMM/FMUL
 <br>Miguel Machado        IMM/FMUL
