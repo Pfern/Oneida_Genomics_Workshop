@@ -2,15 +2,15 @@
 From reads to results
 
  
-## Course Dates: 2-4 May 2018
+## Dates: 2-4 May 2018
  
-_Course Organisers:_ 
-    Mário Ramirez            IMM/FMUL
-    João André Carriço        IMM/FMUL
-    Pedro Fernandes         IGC
-    Daniel Sobral            IGC
+_Organisers:_ 
+<br>Mário Ramirez            IMM/FMUL
+<br>João André Carriço        IMM/FMUL
+<br>Pedro Fernandes         IGC
+<br>Daniel Sobral            IGC
 
-*Course Instructors:*
+_Instructors:_
 <br>Belén Carbonetto        IGC
 <br>João André Carriço        IMM/FMUL
 <br>Miguel Machado        IMM/FMUL
@@ -20,20 +20,18 @@ _Course Organisers:_
 <br>Daniel Sobral            IGC
  
 # Target audience:
-Researchers with interest in high throughput sequence data analysis in the context of microbial pathogens and willing to analyse their own data
+Researchers with interest in high throughput sequence data analysis in the context of microbial pathogens, willing to analyse their own data
  
 # Pre-requisites:
-The course will be taught based using command line in Linux environment , so previous knowledge of Linux basics is required.
+The Linux environment will be used in all the sessions. 
+<br>Familiarity with Linux basics is required, namely basic command structure, file system navigation, redirection, piping, etc.
 
 # Course Objectives
- 
 The objectives of the training course are to provide a hands-on tutorial to ONEIDA members of the bioinformatics software being developed and used within the scope of ONEIDA.
- 
-The workshop will be opened to 20 participants, members of laboratories and groups participating in ONEIDA.
  
 Participants will use provided datasets or their own data sets to apply the different analytical pipelines that will be presented and results will be discussed among faculty and participants. 
  
-## Preliminary Schedule
+## Preliminary Schedule 
  
 May 2nd              
 Morning  (9:30 – 12:30)
