@@ -4,13 +4,13 @@ From reads to results
  
 ## Course Dates: 2-4 May 2018
  
-## Course Organizers: 
-<br>Mário Ramirez            IMM/FMUL
-<br>João André Carriço        IMM/FMUL
-<br>Pedro Fernandes         IGC
-<br>Daniel Sobral            IGC
+*Course Organizers:* 
+  Mário Ramirez            IMM/FMUL
+  João André Carriço        IMM/FMUL
+  Pedro Fernandes         IGC
+  Daniel Sobral            IGC
 
-## Course Instructors:
+*Course Instructors:*
 <br>Belén Carbonetto        IGC
 <br>João André Carriço        IMM/FMUL
 <br>Miguel Machado        IMM/FMUL
