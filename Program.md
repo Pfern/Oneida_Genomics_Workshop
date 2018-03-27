@@ -5,7 +5,7 @@ From reads to results
 
 <hr>
  
-# Institito Gulbenkian de Ciência / Bioinformatics Training Room #
+* Instutito Gulbenkian de Ciência / Bioinformatics Training Room *
 May 2nd, 3rd and 4th 2018
  
 **Organisers:**
@@ -40,7 +40,9 @@ The main objectives of the workshop are:
 Participants will be using datasets that have been prepared for demonstration purposes
 <br>Participants will be allowed to bring their data sets, and test the different analytical pipelines.
 <br>Interesting results will be discussed amongst the workshop participants. 
- 
+
+<hr>
+
 ## Preliminary Schedule ##
  
 **May 2nd **             
@@ -64,6 +66,8 @@ Participants will be using datasets that have been prepared for demonstration pu
 
 17h30 **Discussion**
   
+<hr>
+
 **May 3rd**
 
 9h30 **Gene-by-gene methods (chewBBACA) for Phylogenetic inference:**
@@ -79,6 +83,8 @@ Participants will be using datasets that have been prepared for demonstration pu
 
 14h00 **Visualizing strain relatedness results using PHYLOViZ**
 <br>Demonstration of the INNUENDO platform
+
+<hr>
 
 **May 4th**
 
