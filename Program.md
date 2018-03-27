@@ -52,48 +52,53 @@ May 2nd
 12h30  Lunch @IGC Cafeteria
 
 14h00 **Genome annotation with Prokka**
+
 16h00 Tea Break
-16h30 Using ABRicate to identify antibiotic resistance genes.   
-<br>Group work around specific tasks
-17h30 Discussion
+
+16h30 **Using ABRicate to identify antibiotic resistance genes**  
+<br>Group work around specific 
+
+17h30 **Discussion**
   
-May 3rd 
-9h30 Gene-by-gene methods (chewBBACA) for Phylogenetic inference:
+May 3rd
+
+9h30 **Gene-by-gene methods (chewBBACA) for Phylogenetic inference:**
 <br>- Schema creation
 <br>- Allele calling
 
 11h00 Coffee Break
 
-11:30 Gene-by-gene methods (chewBBACA) for Phylogenetic inference:
+11h30 **Gene-by-gene methods (chewBBACA) for Phylogenetic inference:**
 <br>- Schema evaluation
 
 12h30 Lunch @IGC Cafeteria
 
-14h00 Visualizing strain relatedness results using PHYLOViZ
+14h00 **Visualizing strain relatedness results using PHYLOViZ**
 <br>Demonstration of the INNUENDO platform
 
 May 4th
-9h30 Studying microbial diversity with QIIME2  (I):
+
+9h30 **Studying microbial diversity with QIIME2  (I):**
 <br>- Pre-processing of sequences: remove primers and barcodes, demultiplex samples
 <br>- Quality filtering, denoising and picking of features and representative sequences with DADA2 and Deblur
 <br>- Assign taxonomy to features with trained classifiers.
 
 11h00 Coffee Break
 
-9h30 Studying microbial diversity with QIIME2 (II):
+9h30 **Studying microbial diversity with QIIME2 (II):**
 <br>- Align sequences and infer phylogeny.
 <br>- Calculate alpha and beta diversity.
 <br>- Test for differential abundances between groups of samples using ANCOM and gneiss
 
 12h30 Lunch @IGC Cafeteria
 
-14h00 Evaluating differential expression with RNA-Seq approaches
+14h00 **Evaluating differential expression with RNA-Seq approaches**
 <br>- Aligning RNA-Seq reads to the genome using Hisat2
 <br>- Generating Gene Counts from alignments using featureCounts
 <br>- Performing differential expression analysis using DESeq2
 
 16H00 Tea Break
 
-16h30 Debriefing and general discussion
-18h00 Adjourn
+16h30 **Debriefing and general discussion**
+18h00 **Adjourn**
 
