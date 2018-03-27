@@ -35,46 +35,42 @@ The main objectives of the workshop are:
 # User data
 Participants will be using datasets that have been prepared for demonstration purposes
 <br>Participants will be allowed to bring their data sets, and test the different analytical pipelines.
-<brResults will be discussed among faculty and participants. 
- 
-                     EM EDIÇÃO!!!!!
- 
+<br>Interesting results will be discussed amongst the workshop participants. 
  
 ## Preliminary Schedule 
  
 May 2nd              
-Morning  (9:30 – 12:30)
-1.     Introduction to HTS concepts
-Types of studies: bacterial genome sequencing, Metagenomics (16s and shotgun), RNA-Seq
 
-2. The raw data and available analysis: from reads to read mapping and de novo assembly  
+9:30 Introduction to HTS concepts.
+<br>Types of studies: bacterial genome sequencing, Metagenomics (16s and shotgun), RNA-Seq
+<br>The raw data and available analysis: from reads to read mapping and de novo assembly  
 
-Break (11h00-11h30)
+11h00 Coffee Break 
 
-3.     INNUCA: a genome assembly pipeline
-·       
-Lunch (12h30 – 13h30)
+11h30 INNUCA: a genome assembly pipeline     
 
-Afternoon (14h00 – 17h00)
-3.     Genome annotation with Prokka
-4.     Using ABRicate to identify antibiotic resistance genes.   
-  Workgroup tasks
-5.     Discussion
+12h30  Lunch @IGC Cafeteria
+
+14h00 Genome annotation with Prokka
+16h00 Tea Break
+16h30 Using ABRicate to identify antibiotic resistance genes.   
+<br>Group work around specific tasks
+17h30 Discussion
   
 May 3rd 
-Morning  (9:30 – 12:30)
+9h30 Gene-by-gene methods (chewBBACA) for Phylogenetic inference:
+<br>- Schema creation
+<br>- Allele calling
 
-1.     Gene-by-gene methods (chewBBACA) for Phylogenetic inference:
-·      Schema creation
-·      Allele calling
-·      Schema evaluation
+11h00 Coffee Break
 
-Lunch (12h30 – 13h30)
+11:30 Gene-by-gene methods (chewBBACA) for Phylogenetic inference:
+<br>- Schema evaluation
 
-Afternoon (14h00 – 17h00)
+12h30 Lunch @IGC Cafeteria
 
-2.     Visualizing strain relatedness results using PHYLOViZ
-3.     Demonstration of the INNUENDO platform
+14h00 Visualizing strain relatedness results using PHYLOViZ
+<br>Demonstration of the INNUENDO platform
 
 May 4th
 Morning  (9:30 – 12:30)
