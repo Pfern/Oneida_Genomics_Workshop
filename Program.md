@@ -1,4 +1,6 @@
-# ONEIDA - Genomics Workshop
+# ONEIDA - Genomics Workshop 
+for members of the team ITQB/IGC/IMM
+
 From reads to results
 
  
