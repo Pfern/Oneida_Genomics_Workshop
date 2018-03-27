@@ -5,7 +5,7 @@ From reads to results
 
 <hr>
  
-## Instititi Gulbenkian de Ciência / Bioinformatics Training Room
+# Institito Gulbenkian de Ciência / Bioinformatics Training Room #
 May 2nd, 3rd and 4th 2018
  
 **Organisers:**
@@ -23,28 +23,28 @@ May 2nd, 3rd and 4th 2018
 <br>Mickael Silva            IMM/FMUL
 <br>Daniel Sobral            IGC
  
-# Target audience:
+# Target audience: #
 Researchers with a strong interest in high throughput sequence data analysis in the context of microbial pathogens, that have a present or upcoming data analysis problem in their hands.
  
-# Pre-requisites:
+# Pre-requisites: #
 The Linux environment will be used in all the sessions. 
 <br>Familiarity with Linux basics is required, at the level of basic command structure, file system navigation, redirection, piping, etc.
 <br>Entry level bioinformatics knowledge will be very handy, not really required-
 
-# Workshop Objectives:
+# Workshop Objectives: #
 The main objectives of the workshop are:
 <br>- to provide a hands-on tutorial on the software that is being developed and already in use in the scope of ONEIDA.
 <br>- to provide an update on current plans in software development for ONEIDA 
 
-# Bring your own data (BOD) policy:
+# Bring your own data (BOD) policy: #
 Participants will be using datasets that have been prepared for demonstration purposes
 <br>Participants will be allowed to bring their data sets, and test the different analytical pipelines.
 <br>Interesting results will be discussed amongst the workshop participants. 
  
-## Preliminary Schedule 
+## Preliminary Schedule ##
  
 **May 2nd **             
-**
+
 9:30 **Introduction to HTS concepts**
 <br>Types of studies: bacterial genome sequencing, Metagenomics (16s and shotgun), RNA-Seq
 <br>The raw data and available analysis: from reads to read mapping and de novo assembly  
