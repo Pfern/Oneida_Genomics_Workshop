@@ -112,4 +112,3 @@ Participants will be using datasets that have been prepared for demonstration pu
 16h30 **Debriefing and general discussion**
 
 18h00 **Adjourn**
-
