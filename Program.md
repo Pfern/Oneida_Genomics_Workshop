@@ -45,7 +45,7 @@ Participants will be using datasets that have been prepared for demonstration pu
 
 ## Preliminary Schedule ##
  
-**May 2nd **             
+**May 2nd**             
 
 9:30 **Introduction to HTS concepts**
 <br>Types of studies: bacterial genome sequencing, Metagenomics (16s and shotgun), RNA-Seq
