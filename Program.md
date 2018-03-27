@@ -41,17 +41,17 @@ Participants will be using datasets that have been prepared for demonstration pu
  
 May 2nd              
 
-9:30 Introduction to HTS concepts.
+9:30 **Introduction to HTS concepts**
 <br>Types of studies: bacterial genome sequencing, Metagenomics (16s and shotgun), RNA-Seq
 <br>The raw data and available analysis: from reads to read mapping and de novo assembly  
 
 11h00 Coffee Break 
 
-11h30 INNUCA: a genome assembly pipeline     
+11h30 **INNUCA: a genome assembly pipeline**     
 
 12h30  Lunch @IGC Cafeteria
 
-14h00 Genome annotation with Prokka
+14h00 **Genome annotation with Prokka**
 16h00 Tea Break
 16h30 Using ABRicate to identify antibiotic resistance genes.   
 <br>Group work around specific tasks
@@ -73,23 +73,27 @@ May 3rd
 <br>Demonstration of the INNUENDO platform
 
 May 4th
-Morning  (9:30 – 12:30)
- 
-1.     Studying microbial diversity with QIIME2:
-·      Pre-processing of sequences: remove primers and barcodes, demultiplex
-samples
-·      Quality filtering, denoising and picking of features and representative
-sequences with DADA2 and Deblur
-·      Assign taxonomy to features with trained classifiers.
-·      Align sequences and infer phylogeny.
-·      Calculate alpha and beta diversity.
-·      Test for differential abundances between groups of samples using ANCOM and gneiss
+9h30 Studying microbial diversity with QIIME2  (I):
+<br>- Pre-processing of sequences: remove primers and barcodes, demultiplex samples
+<br>- Quality filtering, denoising and picking of features and representative sequences with DADA2 and Deblur
+<br>- Assign taxonomy to features with trained classifiers.
 
-Lunch (12h30 – 13h30)
+11h00 Coffee Break
 
-Afternoon (14h00 – 17h00)
+9h30 Studying microbial diversity with QIIME2 (II):
+<br>- Align sequences and infer phylogeny.
+<br>- Calculate alpha and beta diversity.
+<br>- Test for differential abundances between groups of samples using ANCOM and gneiss
 
-2.     Evaluating differential expression with RNA-Seq approaches
-·       Aligning RNA-Seq reads to the genome using Hisat2
-·       Generating Gene Counts from alignments using featureCounts
-· Performing differential expression analysis using DESeq2
+12h30 Lunch @IGC Cafeteria
+
+14h00 Evaluating differential expression with RNA-Seq approaches
+<br>- Aligning RNA-Seq reads to the genome using Hisat2
+<br>- Generating Gene Counts from alignments using featureCounts
+<br>- Performing differential expression analysis using DESeq2
+
+16H00 Tea Break
+
+16h30 Debriefing and general discussion
+18h00 Adjourn
+
