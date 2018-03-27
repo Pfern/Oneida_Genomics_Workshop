@@ -9,19 +9,19 @@ From reads to results
 May 2nd, 3rd and 4th 2018
  
 **Organisers:**
-<br>Mário Ramirez            IMM/FMUL
-<br>João André Carriço        IMM/FMUL
-<br>Pedro Fernandes         IGC
-<br>Daniel Sobral            IGC
+<br>Mário Ramirez, IMM/FMUL
+<br>João André Carriço, IMM/FMUL
+<br>Pedro L. Fernandes, IGC
+<br>Daniel Sobral, IGC
 
 **Instructors:**
-<br>Belén Carbonetto        IGC
-<br>João André Carriço        IMM/FMUL
-<br>Miguel Machado        IMM/FMUL
-<br>Bruno Ribeiro Gonçalves    IMM/FMUL
-<br>Mário Ramirez            IMM/FMUL
-<br>Mickael Silva            IMM/FMUL
-<br>Daniel Sobral            IGC
+<br>Belén Carbonetto, IGC
+<br>João André Carriço, IMM/FMUL
+<br>Miguel Machado, IMM/FMUL
+<br>Bruno Ribeiro Gonçalves, IMM/FMUL
+<br>Mário Ramirez, IMM/FMUL
+<br>Mickael Silva, IMM/FMUL
+<br>Daniel Sobral, IGC
  
 # Target audience: #
 Researchers with a strong interest in high throughput sequence data analysis in the context of microbial pathogens, that have a present or upcoming data analysis problem in their hands.
