@@ -1,4 +1,4 @@
-# ONEIDA - Genomics Training Course 
+# ONEIDA - Genomics Workshop
 From reads to results
 
  
@@ -20,16 +20,25 @@ From reads to results
 <br>Daniel Sobral            IGC
  
 # Target audience:
-Researchers with interest in high throughput sequence data analysis in the context of microbial pathogens, willing to analyse their own data
+Researchers with a strong interest in high throughput sequence data analysis in the context of microbial pathogens, that have a present or upcoming data analysis problem in their hands.
  
 # Pre-requisites:
 The Linux environment will be used in all the sessions. 
-<br>Familiarity with Linux basics is required, namely basic command structure, file system navigation, redirection, piping, etc.
+<br>Familiarity with Linux basics is required, at the level of basic command structure, file system navigation, redirection, piping, etc.
+<br>Entry level bioinformatics knowledge will be very handy, not really required-
 
-# Course Objectives
-The objectives of the training course are to provide a hands-on tutorial to ONEIDA members of the bioinformatics software being developed and used within the scope of ONEIDA.
+# Workshop Objectives
+The main objectives of the workshop are:
+<br>- to provide a hands-on tutorial on the software that is being developed and already in use in the scope of ONEIDA.
+<br>- to provide an update on current plans in software development for ONEIDA 
+
+# User data
+Participants will be using datasets that have been prepared for demonstration purposes
+<br>Participants will be allowed to bring their data sets, and test the different analytical pipelines.
+<brResults will be discussed among faculty and participants. 
  
-Participants will use provided datasets or their own data sets to apply the different analytical pipelines that will be presented and results will be discussed among faculty and participants. 
+                     EM EDIÇÃO!!!!!
+ 
  
 ## Preliminary Schedule 
  
