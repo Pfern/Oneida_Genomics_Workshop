@@ -32,12 +32,18 @@ wget -O ~/oneida_workshop/reads/streptococcus_agalactiae/MPM_GBS_samples.tab htt
 # Produce a clean file by removing the header line (first line) and containing only the first column
 sed 1d ~/oneida_workshop/reads/streptococcus_agalactiae/MPM_GBS_samples.tab | cut -f 1 > ~/oneida_workshop/reads/streptococcus_agalactiae/ids.txt
 
+# Run inside a screen
+tmux new -s ena
+
 # Download data using getSeqENA
 getSeqENA.py --listENAids ~/oneida_workshop/reads/streptococcus_agalactiae/ids.txt \
              --outdir ~/oneida_workshop/reads/streptococcus_agalactiae/ \
              --asperaKey  ~/oneida_tools/aspera_connect/etc/asperaweb_id_dsa.openssh \
              --downloadLibrariesType PAIRED \
              --downloadInstrumentPlatform ILLUMINA
+
+# Detatch the screen
+# Press Ctrl + B (release) and then D
 ```
 
 ## Assembly HTS data
@@ -53,8 +59,8 @@ Assembly HTS data using INNUca
 ### Assembly genomes
 
 ```bash
-# Run inside a screen
-screen -S innuca
+# Run inside a tmux screen
+tmux new -s innuca
 
 # INNUca
 INNUca.py --inputDirectory ~/oneida_workshop/reads/streptococcus_agalactiae/ \
@@ -68,5 +74,5 @@ INNUca.py --inputDirectory ~/oneida_workshop/reads/streptococcus_agalactiae/ \
           --saveExcludedContigs
 
 # Detatch the screen
-# Press Ctrl + A (release) and then D
+# Press Ctrl + B (release) and then D
 ```
