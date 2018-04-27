@@ -42,3 +42,14 @@ brew install brewsci/science/prokka
 # Abricate
 PATH="/home/participant/miniconda2/bin:$PATH"
 conda install -y abricate
+
+#chewbbaca
+conda install -c bioconda blast
+conda install -c bioconda prodigal
+conda install -c bioconda mafft
+conda install -c biobuilds clustalw
+
+sudo apt-get install python3-pip
+sudo apt-get dos2unix
+pip3 install chewbbaca
+git clone https://github.com/mickaelsilva/prodigal_training_files
