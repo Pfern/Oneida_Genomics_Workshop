@@ -24,21 +24,20 @@ getSeqENA receives a list of Run Accession IDs to download.
 Using 10 _Streptococcus agalactiae_ samples as an example:
 
 ```bash
-mkdir ~/reads
+mkdir -p ~/oneida_workshop/reads/streptococcus_agalactiae
 
 # Get the file with IDs
-wget -O ~/reads/streptococcus_agalactiae_example/MPM_GBS_samples.tab https://raw.githubusercontent.com/INNUENDOCON/MicrobialGenomeMetagenomeCourse/master/MPM_GBS_samples.tab
+wget -O ~/oneida_workshop/reads/streptococcus_agalactiae/MPM_GBS_samples.tab https://raw.githubusercontent.com/INNUENDOCON/MicrobialGenomeMetagenomeCourse/master/MPM_GBS_samples.tab
 
 # Produce a clean file by removing the header line (first line) and containing only the first column
-sed 1d ~/reads/streptococcus_agalactiae/MPM_GBS_samples.tab | cut -f 1 > ~/reads/streptococcus_agalactiae/ids.txt
+sed 1d ~/oneida_workshop/reads/streptococcus_agalactiae/MPM_GBS_samples.tab | cut -f 1 > ~/oneida_workshop/reads/streptococcus_agalactiae/ids.txt
 
 # Download data using getSeqENA
-getSeqENA.py --listENAids ~/reads/streptococcus_agalactiae/ids.txt \
-             --outdir ~/reads/streptococcus_agalactiae/ \
-             --asperaKey  ~/NGStools/aspera/connect/etc/asperaweb_id_dsa.openssh \
+getSeqENA.py --listENAids ~/oneida_workshop/reads/streptococcus_agalactiae/ids.txt \
+             --outdir ~/oneida_workshop/reads/streptococcus_agalactiae/ \
+             --asperaKey  ~/oneida_tools/aspera_connect/etc/asperaweb_id_dsa.openssh \
              --downloadLibrariesType PAIRED \
-             --downloadInstrumentPlatform ILLUMINA \
-             --SRAopt
+             --downloadInstrumentPlatform ILLUMINA
 ```
 
 ## Assembly HTS data
