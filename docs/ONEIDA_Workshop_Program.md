@@ -47,7 +47,7 @@ Participants will be using datasets that have been prepared for demonstration pu
  
 **May 2nd**             
 
-9:30 **Introduction to HTS concepts**
+<br>9:30 **Introduction to HTS concepts**
 <br>Types of studies: bacterial genome sequencing, Metagenomics (16s and shotgun), RNA-Seq
 <br>The raw data and available analysis: from reads to read mapping and de novo assembly  
 
