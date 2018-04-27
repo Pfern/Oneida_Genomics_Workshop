@@ -57,10 +57,10 @@ Assembly HTS data using INNUca
 screen -S innuca
 
 # INNUca
-INNUca.py --inputDirectory ~/reads/streptococcus_agalactiae/ \
+INNUca.py --inputDirectory ~/oneida_workshop/reads/streptococcus_agalactiae/ \
           --speciesExpected "Streptococcus agalactiae" \
           --genomeSizeExpectedMb 2.1 \
-          --outdir ~/genomes/streptococcus_agalactiae/innuca/ \
+          --outdir ~/oneida_workshop/genomes/streptococcus_agalactiae/innuca/ \
           --threads 8 \
           --fastQCproceed \
           --fastQCkeepFiles \
