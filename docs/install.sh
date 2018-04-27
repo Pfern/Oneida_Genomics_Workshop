@@ -38,16 +38,16 @@ echo 'export PATH="/home/participant/oneida_tools/INNUca:$PATH"' >> ~/.bashrc
 
 # Prokka
 PATH="/home/participant/miniconda2/bin:$PATH"
-conda install -c bioconda -c conda-forge prokka
+conda install -y -c bioconda -c conda-forge prokka
 
 # Abricate
 conda install -y abricate
 
 #chewbbaca
-conda install -c bioconda blast
-conda install -c bioconda prodigal
-conda install -c bioconda mafft
-conda install -c biobuilds clustalw
+conda install -y -c bioconda blast
+conda install -y -c bioconda prodigal
+conda install -y -c bioconda mafft
+conda install -y -c biobuilds clustalw
 
 sudo apt-get install python3-pip
 sudo apt-get dos2unix
