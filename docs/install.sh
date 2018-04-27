@@ -37,10 +37,10 @@ git clone https://github.com/B-UMMI/INNUca.git
 echo 'export PATH="/home/participant/oneida_tools/INNUca:$PATH"' >> ~/.bashrc
 
 # Prokka
-brew install brewsci/science/prokka
+PATH="/home/participant/miniconda2/bin:$PATH"
+conda install -c bioconda -c conda-forge prokka
 
 # Abricate
-PATH="/home/participant/miniconda2/bin:$PATH"
 conda install -y abricate
 
 #chewbbaca
