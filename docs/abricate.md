@@ -24,8 +24,8 @@ Typing with Abricate using Resfinder DB
 
 ```bash
 # Create folder to store Abricate outputs
-export prokka_dir=~/genomes/streptococcus_agalactiae/prokka
-export abricate_dir=~/typing/streptococcus_agalactiae/abricate
+export prokka_dir=~/oneida_workshop/genomes/streptococcus_agalactiae/prokka
+export abricate_dir=~/oneida_workshop/typing/streptococcus_agalactiae/abricate
 
 mkdir -p $abricate_dir
 
@@ -37,6 +37,13 @@ mkdir -p $abricate_dir
 ### Note that the redirection should be done using filesystem paths outside the container
 ls ~/genomes/streptococcus_agalactiae_example/all_assemblies/* | \
       parallel --jobs 8 'docker run --rm -u $(id -u):$(id -g) -v ~/genomes/streptococcus_agalactiae_example/all_assemblies/:/data/ -v /media/volume/DBs/abricate/:/NGStools/miniconda/db/ ummidock/abricate:latest abricate --db resfinder /data/{/} > /media/volume/typing/streptococcus_agalactiae_example/abricate/{/.}.abricate_out.tab'
+
+
+for sample in $(ls -d $prokka_dir/*/); do
+  sample=$(basename $sample)
+  mkdir -p $abricate_dir/$sample
+  abricate --db resfinder $prokka_dir/$sample/$sample.fna > $abricate_dir/$sample/$sample.abricate_out.tab
+done
 
 # Summarize all Abricate results into a single file
 ## With Docker, when using * to refer multiple files, the paths obtained refer to the filesystem outside the container
