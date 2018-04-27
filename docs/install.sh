@@ -26,6 +26,11 @@ brew tap brewsci/bio
 brew untap homebrew/science
 brew update
 brew install mlst
+echo 'export PATH="/home/participant/.linuxbrew/Cellar/mlst/2.10/libexec/bin:$PATH"' >> ~/.bashrc
+
+# ReMatCh
+git clone https://github.com/B-UMMI/ReMatCh.git
+echo 'export PATH="/home/participant/oneida_tools/ReMatCh:$PATH"' >> ~/.bashrc
 
 # INNUca
 git clone https://github.com/B-UMMI/INNUca.git
@@ -35,4 +40,5 @@ echo 'export PATH="/home/participant/oneida_tools/INNUca:$PATH"' >> ~/.bashrc
 brew install brewsci/science/prokka
 
 # Abricate
-brew install brewsci/science/abricate
+PATH="/home/participant/miniconda2/bin:$PATH"
+conda install -y abricate
