@@ -49,6 +49,27 @@ ls -d $innuca_dir/*/ | \
                               --kingdom Bacteria \
                               $innuca_dir/$sample/$sample.contigs.*fasta'
 
+for sample in $(ls -d $innuca_dir/*/); do
+  sample=$(basename $sample)
+  prokka --outdir $prokka_dir/$sample/ \
+         --force \
+         --centre ONEIDA \
+         --genus Streptococcus \
+         --species agalactiae \
+         --strain $sample \
+         --cpus 8 \
+         --prefix $sample \
+         --locustag ${sample}p \
+         --addgenes \
+         --usegenus \
+         --rfam \
+         --increment 10 \
+         --mincontiglen 1 \
+         --gcode 1 \
+         --kingdom Bacteria \
+         $innuca_dir/$sample/$sample.contigs.*fasta
+done
+
 # Detatch the screen
 # Press Ctrl + B (release) and then D
 ```
