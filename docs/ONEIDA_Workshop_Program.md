@@ -53,15 +53,15 @@ Participants will be using datasets that have been prepared for demonstration pu
 
 11h00 Coffee Break 
 
-11h30 **INNUCA: a genome assembly pipeline**     
+11h30 [**INNUCA: a genome assembly pipeline**](./innuca.md)     
 
 12h30  Lunch @IGC Cafeteria
 
-14h00 **Genome annotation with Prokka**
+14h00 [**Genome annotation with Prokka**](./prokka.md)
 
 16h00 Tea Break
 
-16h30 **Using ABRicate to identify antibiotic resistance genes**  
+16h30 [**Using ABRicate to identify antibiotic resistance genes**](.abricate.md)  
 <br>Group work around specific results
 
 17h30 **Discussion**
