@@ -32,7 +32,7 @@ wget -O ~/oneida_workshop/reads/streptococcus_agalactiae/MPM_GBS_samples.tab htt
 # Produce a clean file by removing the header line (first line) and containing only the first column
 sed 1d ~/oneida_workshop/reads/streptococcus_agalactiae/MPM_GBS_samples.tab | cut -f 1 > ~/oneida_workshop/reads/streptococcus_agalactiae/ids.txt
 
-# Run inside a screen
+# Run inside a tmux screen
 tmux new -s ena
 
 # Download data using getSeqENA
