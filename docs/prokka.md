@@ -20,11 +20,11 @@
 ### Annotation
 
 ```bash
-# Run inside a screen
-screen -S prokka
+# Run inside a tmux screen
+tmux new -s prokka
 
-export innuca_dir=~/genomes/streptococcus_agalactiae/innuca
-export prokka_dir=~/genomes/streptococcus_agalactiae/prokka
+export innuca_dir=~/oneida_workshop/genomes/streptococcus_agalactiae/innuca
+export prokka_dir=~/oneida_workshop/genomes/streptococcus_agalactiae/prokka
 
 mkdir -p $prokka_dir
 
@@ -50,5 +50,5 @@ ls -d $innuca_dir/*/ | \
                               $innuca_dir/$sample/$sample.contigs.*fasta'
 
 # Detatch the screen
-# Press Ctrl + A (release) and then D
+# Press Ctrl + B (release) and then D
 ```
