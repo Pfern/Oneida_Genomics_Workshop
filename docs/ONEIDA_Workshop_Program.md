@@ -48,8 +48,8 @@ Participants will be using datasets that have been prepared for demonstration pu
 **May 2nd**             
 
 9:30 **Introduction to HTS concepts**
-<br>Types of studies: bacterial genome sequencing, Metagenomics (16s and shotgun), RNA-Seq
-<br>The raw data and available analysis: from reads to read mapping and de novo assembly  
+<br>From reads to profiles to trees: What can I do after I have sequenced some bacterial genome?  
+
 
 11h00 Coffee Break 
 
@@ -81,31 +81,33 @@ Participants will be using datasets that have been prepared for demonstration pu
 
 12h30 Lunch @IGC Cafeteria
 
-14h00 **Visualizing strain relatedness results using PHYLOViZ**
-<br>Demonstration of the INNUENDO platform
-
-<hr>
-
-**May 4th**
-
-9h30 **Studying microbial diversity with QIIME2  (I):**
-<br>- Pre-processing of sequences: remove primers and barcodes, demultiplex samples
-<br>- Quality filtering, denoising and picking of features and representative sequences with DADA2 and Deblur
-<br>- Assign taxonomy to features with trained classifiers.
-
-11h00 Coffee Break
-
-9h30 **Studying microbial diversity with QIIME2 (II):**
-<br>- Align sequences and infer phylogeny.
-<br>- Calculate alpha and beta diversity.
-<br>- Test for differential abundances between groups of samples using ANCOM and gneiss
-
-12h30 Lunch @IGC Cafeteria
 
 14h00 **Evaluating differential expression with RNA-Seq approaches**
 <br>- Aligning RNA-Seq reads to the genome using Hisat2
 <br>- Generating Gene Counts from alignments using featureCounts
-<br>- Performing differential expression analysis using DESeq2
+<br>- Performing differential expression analysis using DESeq2v
+
+<hr>
+
+**May 4th**
+9h30 **Visualizing strain relatedness results using PHYLOViZ**
+
+10h30 **Demonstration of the INNUENDO platform**
+
+11h00 Coffee Break
+
+11h30 **Studying microbial diversity with QIIME2  (I):**
+<br>- Pre-processing of sequences: remove primers and barcodes, demultiplex samples
+<br>- Quality filtering, denoising and picking of features and representative sequences with DADA2 and Deblur
+
+12h30 Lunch @IGC Cafeteria
+
+14h00 **Studying microbial diversity with QIIME2 (II):**
+<br>- Assign taxonomy to features with trained classifiers.
+<br>- Align sequences and infer phylogeny.
+<br>- Calculate alpha and beta diversity.
+<br>- Test for differential abundances between groups of samples using ANCOM and gneiss
+
 
 16H00 Tea Break
 
