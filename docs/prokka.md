@@ -45,9 +45,10 @@ for sample in $(ls -d $innuca_dir/*/); do
          --mincontiglen 1 \
          --gcode 1 \
          --kingdom Bacteria \
-         $innuca_dir/$sample/$sample.contigs.*fasta
+         $(ls $innuca_dir/$sample/$sample.*fasta | grep --invert-match 'excluded_contigs')
 done
 ```
+Results [here](https://transfer.sh/6v3lY/innuca.tar.gz).
 
 ## Annotations visualization
 
