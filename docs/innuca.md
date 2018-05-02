@@ -5,7 +5,9 @@
 * [_ONEIDA - Genomics Workshop_](./ONEIDA_Workshop_Program.md)
     * _INNUCA: a genome assembly pipeline_
         1. [_Get genomic data_](./innuca.md#get-genomic-data)
+        2. [_Assembly HTS data_](./innuca.md#assembly-hts-data)        
     * [_Genome annotation with Prokka_](./prokka.md)
+    * [_Using ABRicate to identify antibiotic resistance genes_](./abricate.md)
 
 ---
 

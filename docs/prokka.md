@@ -6,6 +6,8 @@
     * [_INNUCA: a genome assembly pipeline_](./innuca.md)
     * _Genome annotation with Prokka_
         1. [_Annotate genomes_](./prokka.md#annotate-genomes)
+        2. [_Annotations visualization_](./prokka.md#annotations-visualization)
+    * [_Using ABRicate to identify antibiotic resistance genes_](./abricate.md)
 
 ---
 
@@ -27,27 +29,6 @@ export innuca_dir=~/oneida_workshop/genomes/streptococcus_agalactiae/innuca
 export prokka_dir=~/oneida_workshop/genomes/streptococcus_agalactiae/prokka
 
 mkdir -p $prokka_dir
-
-ls -d $innuca_dir/*/ | \
-    parallel --jobs 8 '
-                       sample=$(basename {});
-                       prokka --outdir $prokka_dir/$sample/ \
-                              --force \
-                              --centre ONEIDA \
-                              --genus Streptococcus \
-                              --species agalactiae \
-                              --strain $sample \
-                              --cpus 1 \
-                              --prefix $sample \
-                              --locustag ${sample}p \
-                              --addgenes \
-                              --usegenus \
-                              --rfam \
-                              --increment 10 \
-                              --mincontiglen 1 \
-                              --gcode 1 \
-                              --kingdom Bacteria \
-                              $innuca_dir/$sample/$sample.contigs.*fasta'
 
 for sample in $(ls -d $innuca_dir/*/); do
   sample=$(basename $sample)
@@ -73,3 +54,11 @@ done
 # Detatch the screen
 # Press Ctrl + B (release) and then D
 ```
+
+## Annotations visualization
+
+### Artemis
+
+**_What is [Artemis](http://www.sanger.ac.uk/science/tools/artemis)?_**  
+
+> Artemis is a free genome browser and annotation tool that allows visualisation of sequence features, next generation data and the results of analyses within the context of the sequence, and also its six-frame translation.
