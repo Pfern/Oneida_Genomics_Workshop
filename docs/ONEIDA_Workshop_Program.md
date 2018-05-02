@@ -81,11 +81,16 @@ Participants will be using datasets that have been prepared for demonstration pu
 
 12h30 Lunch @IGC Cafeteria
 
+16h30 **Reference-based approach to detect variants in short time-scale evolutionary experiments**
+<br>- Using breseq to detect variants in clones
+<br>- Using breseq to detect variants in populations
 
-14h00 **Evaluating differential expression with RNA-Seq approaches**
+16h00 Coffee Break
+
+16h30 **Evaluating differential expression with RNA-Seq approaches**
 <br>- Aligning RNA-Seq reads to the genome using Hisat2
 <br>- Generating Gene Counts from alignments using featureCounts
-<br>- Performing differential expression analysis using DESeq2v
+<br>- Performing differential expression analysis using DESeq2
 
 <hr>
 
