@@ -7,6 +7,7 @@
     * [_Genome annotation with Prokka_](./prokka.md)
     * _Using ABRicate to identify antibiotic resistance genes_
         1. [_Find ARGs_](./abricate.md#find-args)
+            * [_Task 4_](./abricate.md#annotate-antibiotic-resistance-genes)
 
 ---
 
@@ -18,6 +19,7 @@
 
 > Mass screening of contigs for antimicrobial resistance or virulence genes. It comes bundled with seven databases: Resfinder, CARD, ARG-ANNOT, NCBI BARRGD, NCBI, EcOH, PlasmidFinder and VFDB.
 
+### Task 4
 ### Annotate antibiotic resistance genes
 
 Typing with Abricate using Resfinder DB
@@ -39,3 +41,4 @@ done
 # Summarize all Abricate results into a single file
 abricate --summary $abricate_dir/*/*.abricate_out.tab > $abricate_dir/abricate_summary.resfinder.tab
 ```
+Results [here](https://transfer.sh/KiOn3/abricate.tar.gz).
