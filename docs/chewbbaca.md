@@ -5,7 +5,6 @@
 ```
  
 # Create a working folder and enter it
-cd Desktop
 mkdir test_chewbbaca
 cd test_chewbbaca
  
@@ -71,9 +70,9 @@ chewie CreateSchema -i complete_genomes/ -o schema_seed --cpu 6 --ptf /home/part
 
 # create a file with full paths of the genomes we want to call alleles
  
-find /home/participant/Desktop/test_chewbbaca/complete_genomes/* >listgenomes.txt
-find /home/participant/Desktop/test_chewbbaca/other_assemblies/* >>listgenomes.txt
-find /path/to/innuca/assemblies/*.fasta >>listgenomes.txt
+find /home/participant/test_chewbbaca/complete_genomes/* >listgenomes.txt
+find /home/participant/test_chewbbaca/other_assemblies/* >>listgenomes.txt
+find /home/participant/prokka/*/*.fna >>listgenomes.txt
  
 # open listgenomes.txt and check if there is 1 line with full paths for each assembly (20 in total).Press "q" to exit less after the check
 less listgenomes.txt
