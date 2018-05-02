@@ -86,8 +86,6 @@ chewie AlleleCall -i listgenomes.txt -g schema_seed/ -o results --cpu 6 --ptf /h
 
 ### Task 4 - test genome allele call quality
 ```
-
-# at the end of the command the program will try to open the html. Press "q" and "y" to exit that action when prompted
 chewie TestGenomeQuality -i results/<results_20171207T150515>/results_alleles.tsv -o testcq -n 12 -s 5 -t 300
 
 ```
