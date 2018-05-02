@@ -6,6 +6,7 @@
     * [_INNUCA: a genome assembly pipeline_](./innuca.md)
     * _Genome annotation with Prokka_
         1. [_Annotate genomes_](./prokka.md#annotate-genomes)
+            * [_Task 3_](./prokka.md#annotation)
         2. [_Annotations visualization_](./prokka.md#annotations-visualization)
     * [_Using ABRicate to identify antibiotic resistance genes_](./abricate.md)
 
@@ -19,6 +20,7 @@
 
 > Prokka is a software tool to annotate bacterial, archaeal and viral genomes quickly and produce standards-compliant output files
 
+### Task 3
 ### Annotation
 
 ```bash
