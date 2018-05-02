@@ -48,7 +48,7 @@ for sample in $(ls -d $innuca_dir/*/); do
          $(ls $innuca_dir/$sample/$sample.*fasta | grep --invert-match 'excluded_contigs')
 done
 ```
-Results [here](https://transfer.sh/6v3lY/innuca.tar.gz).
+Results [here](https://transfer.sh/Te3al/prokka.tar.gz).
 
 ## Annotations visualization
 
