@@ -92,7 +92,7 @@ chewie TestGenomeQuality -i results/<results_20171207T150515>/results_alleles.ts
 ```
 # Extract a profile suitable to be used by phyloviz
 
-chewie ExtractCgMLST -i results/<results_20171207T150515>/results_alleles.tsv -o my_cgMLST -r results/<results_20171207T150515>/RepeatedLoci.txt -p 0.95
+chewie ExtractCgMLST -i results/<results_20171207T150515>/results_alleles.tsv -o my_cgMLST -r results/<results_20171207T150515>/RepeatedLoci.txt -p 0.90
 
 # my_cgMLST/cgMLST.tsv will be used later to build a Minimum Spanning Tree with phyloviz
 
