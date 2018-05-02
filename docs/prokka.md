@@ -22,9 +22,6 @@
 ### Annotation
 
 ```bash
-# Run inside a tmux screen
-tmux new -s prokka
-
 export innuca_dir=~/oneida_workshop/genomes/streptococcus_agalactiae/innuca
 export prokka_dir=~/oneida_workshop/genomes/streptococcus_agalactiae/prokka
 
@@ -50,9 +47,6 @@ for sample in $(ls -d $innuca_dir/*/); do
          --kingdom Bacteria \
          $innuca_dir/$sample/$sample.contigs.*fasta
 done
-
-# Detatch the screen
-# Press Ctrl + B (release) and then D
 ```
 
 ## Annotations visualization
