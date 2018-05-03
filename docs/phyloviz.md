@@ -4,6 +4,10 @@
 
 PHYLOViZ Online is an online version of the software PHYLOViZ, a software that allows the analysis of sequence-based typing methods that generate allelic profiles and their associated epidemiological data.
 
+### Presentation
+
+A presentation regarding the features of the applciation can be found [here](https://docs.google.com/presentation/d/1s40Bh-XJuUzncwwuOiUbAZ8S-fBfBqKBeHxz-6oou5o/edit?usp=sharing)
+
 ### Usage steps
 
 For the purpose of this course, you can access to the online application at [http://137.205.70.78](http://137.205.70.78).
