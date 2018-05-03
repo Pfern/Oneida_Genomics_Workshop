@@ -72,7 +72,7 @@ chewie CreateSchema -i complete_genomes/ -o schema_seed --cpu 6 --ptf /home/part
  
 find /home/participant/test_chewbbaca/complete_genomes/* >listgenomes.txt
 find /home/participant/test_chewbbaca/other_assemblies/* >>listgenomes.txt
-find /home/participant/prokka/*/*.fna >>listgenomes.txt
+find /home/participant/path/to/prokka/*/*.fna >>listgenomes.txt
  
 # open listgenomes.txt and check if there is 1 line with full paths for each assembly (20 in total).Press "q" to exit less after the check
 less listgenomes.txt
