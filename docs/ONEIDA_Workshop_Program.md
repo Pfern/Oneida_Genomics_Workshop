@@ -5,7 +5,7 @@ From reads to results
 
 <hr>
  
-* Instutito Gulbenkian de Ciência / Bioinformatics Training Room *
+* Instituto Gulbenkian de Ciência / Bioinformatics Training Room *
 May 2nd, 3rd and 4th 2018
  
 **Organisers:**
