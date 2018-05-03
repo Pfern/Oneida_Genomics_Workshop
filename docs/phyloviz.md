@@ -42,9 +42,13 @@ After running the above commands, open the summary table and substitute the nume
 
 Change the header of the IDs from #FILE to FILE and save the file as tab delimited. 
 
+Alternatively you can download it directly [here]()
+
 ### Preparing the profile file
 
 Get the profile file obtained from chewBBACA [task 5](https://github.com/Pfern/Oneida_Genomics_Workshop/blob/master/docs/chewbbaca.md#task-5---extract-the-profile-for-phyloviz)
+
+As an option you can donwload the file directly from the repository [directory](https://raw.githubusercontent.com/Pfern/Oneida_Genomics_Workshop/master/docs/cgMLST.tsv).
 
 ### Accessing the application
 
@@ -52,6 +56,7 @@ For the purpose of this course, you can access to the online application at [htt
 Use **Google Chrome** for a better user experience.
 
 ***Login***: oneida_workshop
+
 ***Password***: oneida_workshop
 
 To acess the upload page, go to `Actions > Upload Data sets`.
@@ -62,5 +67,4 @@ Click `Launch Tree` and Explore!
 
 ***NOTE***: You can perform subsets of the tree by pressing `shift+s` and dragging with the mouse over the nodes to select them. Them click on `Operations > Subset Operations > Create Subsets` and a popup will appear to create the subsets.
 
-Profile file [here]()
 Metadata file [here]()
