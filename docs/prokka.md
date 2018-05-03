@@ -45,7 +45,7 @@ for sample in $(ls -d $innuca_dir/*/); do
          --rfam \
          --increment 10 \
          --mincontiglen 1 \
-         --gcode 1 \
+         --gcode 11 \
          --kingdom Bacteria \
          $(ls $innuca_dir/$sample/$sample.*fasta | grep --invert-match 'excluded_contigs')
 done
