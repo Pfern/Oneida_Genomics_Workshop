@@ -48,12 +48,12 @@ Participants will be using datasets that have been prepared for demonstration pu
 **May 2nd**             
 
 9:30 **Introduction to HTS concepts**
-<br>From reads to profiles to trees: What can I do after I have sequenced some bacterial genome?  
-
+<br>[**From reads to profiles to trees: What can I do after I have sequenced some bacterial genome?**](./OneidaWS_ReadstoTrees_May2018.pptx)
 
 11h00 Coffee Break 
 
 11h30 [**INNUCA: a genome assembly pipeline**](./innuca.md)     
+[**INNUCA: a genome assembly pipeline (presentation) **](./OneidaWS_INNUCA.pptx)
 
 12h30  Lunch @IGC Cafeteria
 
