@@ -10,9 +10,15 @@ A presentation regarding the features of the application can be found [here](htt
 
 ## Usage steps
 
+### Preparing the profile file
+
+Get the profile file obtained from chewBBACA [task 5](https://github.com/Pfern/Oneida_Genomics_Workshop/blob/master/docs/chewbbaca.md#task-5---extract-the-profile-for-phyloviz)
+
+As an option you can donwload the file directly from the repository [directory](https://raw.githubusercontent.com/Pfern/Oneida_Genomics_Workshop/master/docs/cgMLST.tsv).
+
 ### Preparing the metadata files
 
-To get some relevant additional data to associate with our trees, we will run abricate with the list of genomes used as input for the allele call task in chewBBACA.
+To get some relevant additional data to associate with our trees, we can run abricate with the list of genomes used as input for the allele call task in chewBBACA.
 
 ```
 #Get test_chewbbaca directory path
@@ -38,17 +44,14 @@ done
 abricate --summary $abricate_dir/*/*.abricate_out.tab > $abricate_dir/abricate_summary.resfinder.day1_day2.tab
 ```
 
-After running the above commands, open the summary table and substitute the numeric values with what for you is **true** for presence of a resistence genes and **false** to absence.
+After running the above commands, there are some file modifications that need to be made:
 
-Change the header of the IDs from #FILE to FILE and save the file as tab delimited. 
+- Open the summary table and substitute the numeric values with what for you is **true** for presence of a resistence genes and **false** to absence.
+- Change the header of the IDs from #FILE to FILE and save the file as tab delimited.
+- Change values in the FILE column to match with the FILE column of the chewBBACA profile file.
 
-Alternatively you can download it directly [here]()
+Alternatively you can download it directly [here](https://raw.githubusercontent.com/Pfern/Oneida_Genomics_Workshop/master/docs/metadata.txt)
 
-### Preparing the profile file
-
-Get the profile file obtained from chewBBACA [task 5](https://github.com/Pfern/Oneida_Genomics_Workshop/blob/master/docs/chewbbaca.md#task-5---extract-the-profile-for-phyloviz)
-
-As an option you can donwload the file directly from the repository [directory](https://raw.githubusercontent.com/Pfern/Oneida_Genomics_Workshop/master/docs/cgMLST.tsv).
 
 ### Accessing the application
 
@@ -67,4 +70,3 @@ Click `Launch Tree` and Explore!
 
 ***NOTE***: You can perform subsets of the tree by pressing `shift+s` and dragging with the mouse over the nodes to select them. Them click on `Operations > Subset Operations > Create Subsets` and a popup will appear to create the subsets.
 
-Metadata file [here]()
