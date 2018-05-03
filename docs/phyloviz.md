@@ -49,6 +49,7 @@ Get the profile file obtained from chewBBACA [task 5](https://github.com/Pfern/O
 ### Accessing the application
 
 For the purpose of this course, you can access to the online application at [http://137.205.70.78](http://137.205.70.78).
+Use **Google Chrome** for a better user experience.
 
 ***Login***: oneida_workshop
 ***Password***: oneida_workshop
