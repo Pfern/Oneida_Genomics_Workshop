@@ -90,6 +90,7 @@ Participants will be using datasets that have been prepared for demonstration pu
 <hr>
 
 **May 4th**
+
 9h30 [**Visualizing strain relatedness results using PHYLOViZ**](./phyloviz.md)
 
 10h30 **Demonstration of the INNUENDO platform**
