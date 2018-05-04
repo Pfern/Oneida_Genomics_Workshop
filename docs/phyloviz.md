@@ -34,7 +34,7 @@ for ncbi_genomes in complete_genomes other_assemblies; do
   for sample in $(ls $dir/*.fna); do
     sample_name=$(basename $sample | rev | cut -f 2- -d '.' | rev)
     mkdir -p $abricate_dir/$sample_name
-    abricate --db resfinder $dir/$sample > $abricate_dir/$sample_name/$sample_name.abricate_out.tab
+    abricate --db resfinder $sample > $abricate_dir/$sample_name/$sample_name.abricate_out.tab
   done
   
 done
