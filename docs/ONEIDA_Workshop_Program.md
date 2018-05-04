@@ -5,7 +5,7 @@ From reads to results
 
 <hr>
  
-* Instutito Gulbenkian de Ciência / Bioinformatics Training Room *
+* Instituto Gulbenkian de Ciência / Bioinformatics Training Room *
 May 2nd, 3rd and 4th 2018
  
 **Organisers:**
@@ -47,21 +47,21 @@ Participants will be using datasets that have been prepared for demonstration pu
  
 **May 2nd**             
 
-<br>9:30 **Introduction to HTS concepts**
-<br>Types of studies: bacterial genome sequencing, Metagenomics (16s and shotgun), RNA-Seq
-<br>The raw data and available analysis: from reads to read mapping and de novo assembly  
+9:30 **Introduction to HTS concepts**
+<br>[**From reads to profiles to trees: What can I do after I have sequenced some bacterial genome?**](./OneidaWS_ReadstoTrees_May2018.pptx)
 
 11h00 Coffee Break 
 
-11h30 **INNUCA: a genome assembly pipeline**     
+11h30 [**INNUCA: a genome assembly pipeline**](./innuca.md)     
+[**INNUCA: a genome assembly pipeline (presentation) **](./OneidaWS_INNUCA.pptx)
 
 12h30  Lunch @IGC Cafeteria
 
-14h00 **Genome annotation with Prokka**
+14h00 [**Genome annotation with Prokka**](./prokka.md)
 
 16h00 Tea Break
 
-16h30 **Using ABRicate to identify antibiotic resistance genes**  
+16h30 [**Using ABRicate to identify antibiotic resistance genes**](.abricate.md)  
 <br>Group work around specific results
 
 17h30 **Discussion**
@@ -90,7 +90,8 @@ Participants will be using datasets that have been prepared for demonstration pu
 <hr>
 
 **May 4th**
-9h30 **Visualizing strain relatedness results using PHYLOViZ**
+
+9h30 [**Visualizing strain relatedness results using PHYLOViZ**](./phyloviz.md)
 
 10h30 **Demonstration of the INNUENDO platform**
 
