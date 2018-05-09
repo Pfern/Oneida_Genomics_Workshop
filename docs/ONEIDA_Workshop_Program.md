@@ -61,7 +61,7 @@ Participants will be using datasets that have been prepared for demonstration pu
 
 16h00 Tea Break
 
-16h30 [**Using ABRicate to identify antibiotic resistance genes**](.abricate.md)  
+16h30 [**Using ABRicate to identify antibiotic resistance genes**](./abricate.md)  
 <br>Group work around specific results
 
 17h30 **Discussion**
